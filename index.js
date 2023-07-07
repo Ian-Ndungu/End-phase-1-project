@@ -81,44 +81,6 @@ container.innerHTML=`
 document.querySelector(".div2").appendChild(container)
 }
 
-<<<<<<< HEAD
-=======
-  
-let make
-let id
-const searching=document.querySelector("#searchButton")
-searching.addEventListener("click", ()=>{
-  make=document.querySelector("input").value;
-  
-  if(make === "Camry"){
-    id=1
-  }else if(make === "Accord"){
-    id=2
-  }else if(make === "Legacy"){
-    id=3
-  }else if(make === "Celicia"){
-    id=4
-  }else if(make === "Polo Vivo"){
-    id=5
-  }else if(make === "Sport"){
-    id=6
-  }else if(make == "BMW"){
-    id=7
-  }
-  SearchingCar()
-  clear()
-})
-  
-function showing(elementChosen){
-  const container=document.createElement("div")
-  container.className="box-car"
-  container.innerHTML=`
-  <img src="${elementChosen.image}">
-  `
-  document.querySelector(".div2").appendChild(container)
-}
-
->>>>>>> 2ee83c8a14e826a62d1cc372c40bd001817ab1e0
 function clear(){
 const container=document.querySelector(".div2")
 container.innerHTML=" "
@@ -126,17 +88,9 @@ container.innerHTML=" "
 
 
 const SearchingCar=()=>{
-<<<<<<< HEAD
 fetch(`http://localhost:3000/cars/${id}`)
 .then((res)=>{
   res.json()
   .then((cars)=>showing(cars))
 })
-=======
-  fetch(`http://localhost:3000/cars/${id}`)
-  .then((res)=>{
-    res.json()
-    .then((cars)=>showing(cars))
-  })
->>>>>>> 2ee83c8a14e826a62d1cc372c40bd001817ab1e0
 }
