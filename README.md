@@ -8,7 +8,7 @@ Email: ianndungu06@gmail.com
 
 
 ## Table of Contents
-Technologies Used
+Technologies Used.
 Installation
 Usage
 Contributing
