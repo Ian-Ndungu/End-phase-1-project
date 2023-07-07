@@ -6,19 +6,36 @@ body{
     background-size:cover;
 
 }
-.ul1{
-    display: flex;
-    float: right;
-    padding: 10px;
-    margin-top: -100px;
+
+.navigation {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  float: right;
 }
-li{
-    padding: 10px;
-    list-style: none;
-    font-size: larger;
-    font-weight: bold;
-    color: greenyellow;
+
+.navigation li {
+  display: inline-block;
+  margin-right: 10px;
+  font-size: larger;
+  font-weight: bold;
 }
+
+.navigation li i {
+  margin-left: 5px;
+}
+
+.navigation li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.navigation li a:hover {
+  color: #ff0000;
+}
+
+
+
 .div1{
     text-align: center;
 }
@@ -53,5 +70,33 @@ i{
   
   .hire-button:hover {
     background-color: #45a049;
+  }
+  p{
+    color: white;
+  }
+
+  #searchInput {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  #searchButton {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  #searchButton:hover {
+    background-color: #45a049;
+  }
+  
+  #searchButton:active {
+    background-color: #3e8e41;
   }
   
