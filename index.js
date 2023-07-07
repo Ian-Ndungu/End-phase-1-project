@@ -52,7 +52,7 @@ let id
 const searching=document.querySelector("#searchButton")
 searching.addEventListener("click", ()=>{
 make=document.querySelector("input").value;
-
+// Assigning id based on the make of the car
 if(make === "Camry"){
   id=1
 }else if(make === "Accord"){
@@ -78,10 +78,10 @@ if(make === "Camry"){
 }else if(make =="CR-V"){
   id=12
 }
-SearchingCar()
-clear()
+SearchingCar() // Call the SearchingCar function to fetch and display the searched car
+clear() // Call the clear function to clear the existing car information from the page
 })
-
+// Function to display the searched car image
 function showing(elementChosen){
 const container=document.createElement("div")
 container.className="box-car"
@@ -90,13 +90,13 @@ container.innerHTML=`
 `
 document.querySelector(".div2").appendChild(container)
 }
-
+// Function to clear the car information from the page
 function clear(){
 const container=document.querySelector(".div2")
 container.innerHTML=" "
 }
 
-
+// Function to fetch and display the searched car
 const SearchingCar=()=>{
 fetch(`http://localhost:3000/cars/${id}`)
 .then((res)=>{
