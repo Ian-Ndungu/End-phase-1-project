@@ -1,0 +1,57 @@
+body{
+    background-image: url(./resources/Porsche\ 911\ Targa\ 4S\ GTS\ Wallpapers\ _\ hdqwalls_com\ \(1\).jpeg);
+    
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+
+}
+.ul1{
+    display: flex;
+    float: right;
+    padding: 10px;
+    margin-top: -100px;
+}
+li{
+    padding: 10px;
+    list-style: none;
+    font-size: larger;
+    font-weight: bold;
+    color: greenyellow;
+}
+.div1{
+    text-align: center;
+}
+i{
+    color: aliceblue;
+}
+
+.div2 {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  
+  .div2 div {
+    border: 1px solid #ccc;
+    padding: 10px;
+  }
+  
+  .div2 img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .hire-button {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  .hire-button:hover {
+    background-color: #45a049;
+  }
+  

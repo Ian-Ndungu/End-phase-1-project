@@ -1,0 +1,74 @@
+{
+  "cars": [
+    {
+      "id": 1,
+      "make": "Toyota",
+      "model": "Camry",
+      "image": "https://i.pinimg.com/564x/45/39/af/4539afc4030ae7e27f16b0f53b8520c7.jpg",
+      "year": 2019,
+      "color": "Silver",
+      "available": true,
+      "rented": 0
+    },
+    {
+      "id": 2,
+      "make": "Honda",
+      "model": "Accord",
+      "image": "https://i.pinimg.com/564x/66/ac/97/66ac97ee39e92d2dd27c83ff8089d9a3.jpg",
+      "year": 2020,
+      "color": "Black",
+      "available": false,
+      "rented": 1
+    },
+    {
+      "id": 3,
+      "make": "Subaru",
+      "model": "Legacy",
+      "image": "https://i.pinimg.com/564x/d9/87/f8/d987f856f34dbfe1fda2639feb0ba7b8.jpg",
+      "year": 2017,
+      "color": "red",
+      "available": true,
+      "rented": 0
+    },
+    {
+      "id": 4,
+      "make": "Toyota",
+      "model": "Celicia",
+      "image": "https://i.pinimg.com/564x/31/3f/8b/313f8b9e5d8f0ac11e075ca4aaf45af8.jpg",
+      "year": 2020,
+      "color": "blue",
+      "available": true,
+      "rented": 1
+    },
+    {
+      "id": 5,
+      "make": "Volks Wagen",
+      "model": "Polo Vivo",
+      "image": "https://i.pinimg.com/564x/b8/0f/6a/b80f6a319e73ae15e28372adf749382d.jpg",
+      "year": 2019,
+      "color": "White",
+      "available": true,
+      "rented": 0
+    },
+    {
+      "id": 6,
+      "make": "RangeRover",
+      "model": "Sport",
+      "image": "https://i.pinimg.com/564x/aa/3f/eb/aa3febde964412ef0f398a6c9b383058.jpg",
+      "year": 2021,
+      "color": "blue",
+      "available": true,
+      "rented": 0
+    },
+    {
+      "id": 7,
+      "make": "BMW",
+      "model": "i8",
+      "image": "https://i.pinimg.com/564x/69/4a/1f/694a1fbc59e060ac7c251a179454b1e0.jpg",
+      "year": 2020,
+      "color": "Black",
+      "available": true,
+      "rented": 0
+    }
+  ]
+}
