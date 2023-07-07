@@ -1,4 +1,6 @@
 ## Car Connect
+  by Ian Ndung'u
+  
 This repository contains the code for Car Connect, a web application that allows users to search and hire cars. It provides a user-friendly interface for searching cars based on their model or description.
 ## Author
 Author: Ian Ndung'u
