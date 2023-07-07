@@ -8,7 +8,7 @@
       "year": 2019,
       "color": "Silver",
       "available": true,
-      "rented": 0
+      "rented": 1
     },
     {
       "id": 2,
@@ -18,7 +18,7 @@
       "year": 2020,
       "color": "Black",
       "available": false,
-      "rented": 1
+      "rented": 2
     },
     {
       "id": 3,
@@ -28,7 +28,7 @@
       "year": 2017,
       "color": "red",
       "available": true,
-      "rented": 0
+      "rented": 1
     },
     {
       "id": 4,

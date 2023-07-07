@@ -47,24 +47,50 @@ const cars = (rent) => {
   
 
   
+let make
+let id
+const searching=document.querySelector("#searchButton")
+searching.addEventListener("click", ()=>{
+  make=document.querySelector("input").value;
+  
+  if(make === "Camry"){
+    id=1
+  }else if(make === "Accord"){
+    id=2
+  }else if(make === "Legacy"){
+    id=3
+  }else if(make === "Celicia"){
+    id=4
+  }else if(make === "Polo Vivo"){
+    id=5
+  }else if(make === "Sport"){
+    id=6
+  }else if(make == "BMW"){
+    id=7
+  }
+  SearchingCar()
+  clear()
+})
+  
+function showing(elementChosen){
+  const container=document.createElement("div")
+  container.className="box-car"
+  container.innerHTML=`
+  <img src="${elementChosen.image}">
+  `
+  document.querySelector(".div2").appendChild(container)
+}
+
+function clear(){
+const container=document.querySelector(".div2")
+container.innerHTML=" "
+}
 
 
-  const searchCarModel = () => {
-    const searchInput = document.getElementById("searchInput").value.toLowerCase();
-    const models = document.querySelectorAll(".model");
-  
-    models.forEach((model) => {
-      const name = model.querySelector("h3").innerText.toLowerCase();
-      const description = model.querySelector("p").innerText.toLowerCase();
-  
-      if (name.includes(searchInput) || description.includes(searchInput)) {
-        model.style.display = "block"; // Show the model if it matches the search
-      } else {
-        model.style.display = "none"; // Hide the model if it doesn't match the search
-      }
-    });
-  };
-  
-  const searchButton = document.getElementById("searchButton");
-  searchButton.addEventListener("click", searchCarModel);
-  
+const SearchingCar=()=>{
+  fetch(`http://localhost:3000/cars/${id}`)
+  .then((res)=>{
+    res.json()
+    .then((cars)=>showing(cars))
+  })
+}
