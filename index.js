@@ -67,6 +67,16 @@ if(make === "Camry"){
   id=6
 }else if(make == "BMW"){
   id=7
+}else if (make == "Impreza"){
+  id=8
+}else if(make =="M4 G82"){
+  id=9
+}else if(make =="Bettle"){
+  id=10
+}else if(make =="Voxy"){
+  id=11
+}else if(make =="CR-V"){
+  id=12
 }
 SearchingCar()
 clear()

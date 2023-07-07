@@ -98,7 +98,27 @@
       "year": 2022,
       "color": "Grey",
       "available": true,
-      "rented": 0
+      "rented": 4
+    },
+    {
+      "id": 11,
+      "make": "Toyota",
+      "model": "Voxy",
+      "image": "https://i.pinimg.com/564x/45/d5/46/45d546967f0daf4f2ba7a543cf05fbee.jpg",
+      "year": 2019,
+      "color": "Black",
+      "available": true,
+      "rented": 1
+    },
+    {
+      "id": 12,
+      "make": "Honda",
+      "model": "CR-V",
+      "image": "https://i.pinimg.com/564x/e4/3b/84/e43b84d78acbfb47bad9936bef341400.jpg",
+      "year": 2019,
+      "color": "White",
+      "available": true,
+      "rented": 1
     }
   ]
 }
