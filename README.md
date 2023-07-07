@@ -9,10 +9,10 @@ Email: ianndungu06@gmail.com
 
 ## Table of Contents
 Technologies Used.
-Installation
-Usage
-Contributing
-License
+Installation.
+Usage.
+Contributing.
+License.
 ## Technologies Used
 -HTML5
 CSS3
