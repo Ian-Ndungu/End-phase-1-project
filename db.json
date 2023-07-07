@@ -69,6 +69,36 @@
       "color": "Black",
       "available": true,
       "rented": 0
+    },
+    {
+      "id": 8,
+      "make": "Subaru",
+      "model": "Ipreza",
+      "image": "https://i.pinimg.com/564x/a5/12/00/a51200daba76ca0aea3459404a4cec21.jpg",
+      "year": 2018,
+      "color": "Black",
+      "available": true,
+      "rented": 2
+    },
+    {
+      "id": 9,
+      "make": "BMW",
+      "model": "M4 G82",
+      "image": "https://i.pinimg.com/564x/1b/0d/4d/1b0d4d0d774e51672da74bfde526e22e.jpg",
+      "year": 2020,
+      "color": "Yellow",
+      "available": true,
+      "rented": 0
+    },
+    {
+      "id": 10,
+      "make": "Volks Wagen",
+      "model": "Bettle",
+      "image": "https://i.pinimg.com/564x/f1/9b/49/f19b490956bc169336a52b129ae8c012.jpg",
+      "year": 2022,
+      "color": "Grey",
+      "available": true,
+      "rented": 0
     }
   ]
 }
